@@ -9,4 +9,6 @@ if (process.env.PORT) {
 }
 
 
-app.listen(port, () => console.log('Example app listening on port ' + port));
+var server = app.listen(port, () => console.log('Example app listening on port ' + port));
+
+module.exports = server;
