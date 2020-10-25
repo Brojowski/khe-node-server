@@ -18,7 +18,7 @@
 							"});",
 							"",
 							"pm.test(\"Returns Hello World\", function() {",
-							"    pm.expect(pm.response.text()).to.equal('Hello Chris!')",
+							"    pm.expect(pm.response.text()).to.equal('Chris has taken over your repository. All web sites now belong to Seitz.')",
 							"});"
 						],
 						"type": "text/javascript"
