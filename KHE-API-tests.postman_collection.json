@@ -18,7 +18,7 @@
 							"});",
 							"",
 							"pm.test(\"Returns Hello World\", function() {",
-							"    pm.expect(pm.response.text()).to.equal('Hello World!')",
+							"    pm.expect(pm.response.text()).to.equal('Hello Chris!')",
 							"});"
 						],
 						"type": "text/javascript"
